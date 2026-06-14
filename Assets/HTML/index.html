@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Medicare Pakistan</title>
+</head>
+<body>
+    
+
+     <header>
+        <nav>
+            <h1>Medicare Pakistan</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Your Health, Our Priority</h2>
+        <p>Providing quality healthcare services across Pakistan.</p>
+        <button onclick="bookAppointment()">Book Appointment</button>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>General Checkup</h3>
+                <p>Complete health examination.</p>
+            </div>
+
+            <div class="card">
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency medical support.</p>
+            </div>
+
+            <div class="card">
+                <h3>Laboratory</h3>
+                <p>Advanced testing facilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Dr. Ahmed Khan</h3>
+                <p>Cardiologist</p>
+            </div>
+
+            <div class="card">
+                <h3>Dr. Sarah Ali</h3>
+                <p>Dermatologist</p>
+            </div>
+
+            <div class="card">
+                <h3>Dr. Usman Sheikh</h3>
+                <p>Pediatrician</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Medicare Pakistan | All Rights Reserved</p>
+    </footer>
+
+    <script src="../Javascript/script.js"></script>
+
+</body>
+</html>

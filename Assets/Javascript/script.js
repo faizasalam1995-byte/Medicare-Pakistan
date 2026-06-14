@@ -14,3 +14,10 @@ form.addEventListener("submit", function(event){
 
     form.reset();
 });
+document.querySelector(".signin-btn").addEventListener("click", () => {
+    alert("Sign In Page Coming Soon!");
+});
+
+document.querySelector(".signup-btn").addEventListener("click", () => {
+    alert("Sign Up Page Coming Soon!");
+});
